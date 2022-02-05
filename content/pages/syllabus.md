@@ -53,16 +53,87 @@ Learning Objectives
 How We Grade
 ------------
 
-| ACTVITIES | PERCENTAGES |
-| --- | --- |
-| Attendance and participation | 10% |
-| Homework (ten at 4% each) | 40% |
-| Labs (four at 2.5% each) | 10% |
-| Project proposal (group grade) | 10% |
-| Project milestone presentation slides | 5% (group) |
-| 10% (individual) |
-| Project final presentation slides | 5% (group) |
-| 10% (individual) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Attendance and participation
+{{< tdclose >}}
+{{< tdopen >}}
+10%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Homework (ten at 4% each)
+{{< tdclose >}}
+{{< tdopen >}}
+40%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Labs (four at 2.5% each)
+{{< tdclose >}}
+{{< tdopen >}}
+10%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Project proposal (group grade)
+{{< tdclose >}}
+{{< tdopen >}}
+10%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Project milestone presentation slides
+{{< tdclose >}}
+{{< tdopen >}}
+5% (group)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10% (individual)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Project final presentation slides
+{{< tdclose >}}
+{{< tdopen >}}
+5% (group)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10% (individual)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 **Missed assignments** cost 20% each weekday.
 

@@ -10,18 +10,343 @@ The notes given here are terse but intended to be self-contained. The goal is to
 
 Hover, Franz S., and Michael S. Triantafyllou. _System Design for Uncertainty_. Cambridge, MA: MIT Center for Ocean Engineering, 2010. ([PDF - 1.3MB]({{< baseurl >}}/resources/mit2_017jf09_coursetext)) (Courtesy of Michael S. Triantafyllou. Used with permission.)
 
-| TOPICS | FILES |
-| --- | --- |
-| Chapter 1: Introduction | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch01)) |
-|  {{< br >}}{{< br >}} Chapter 2: Linear Systems {{< br >}}{{< br >}} 2.1 Definition of a system {{< br >}}{{< br >}} 2.2 Time-invariant systems {{< br >}}{{< br >}} 2.3 Linear systems {{< br >}}{{< br >}} 2.4 The impulse response and convolution {{< br >}}{{< br >}} 2.5 Causal systems {{< br >}}{{< br >}} 2.6 An example of finding the impulse response {{< br >}}{{< br >}} 2.7 Complex numbers {{< br >}}{{< br >}} 2.8 Fourier transform {{< br >}}{{< br >}} 2.9 The angle of a transfer function {{< br >}}{{< br >}} 2.10 The Laplace transform {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch02)) |
-|  {{< br >}}{{< br >}} Chapter 3: Probability Events {{< br >}}{{< br >}} 3.1 Events {{< br >}}{{< br >}} 3.2 Conditional probability {{< br >}}{{< br >}} 3.3 Bayes' rule {{< br >}}{{< br >}} 3.4 Random variables {{< br >}}{{< br >}} 3.5 Continuous random variables and the probability density function {{< br >}}{{< br >}} 3.6 The Gaussian PDF {{< br >}}{{< br >}} 3.7 The cumulative probability function {{< br >}}{{< br >}} 3.8 Central limit theorem {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch03)) |
-|  {{< br >}}{{< br >}} Chapter 4: Random Processes {{< br >}}{{< br >}} 4.1 Time averages {{< br >}}{{< br >}} 4.2 Ensemble averages {{< br >}}{{< br >}} 4.3 Stationarity {{< br >}}{{< br >}} 4.4 The spectrum: definition {{< br >}}{{< br >}} 4.5 Wiener-Khinchine Relation {{< br >}}{{< br >}} 4.6 Spectrum interpretation {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch04)) |
-|  {{< br >}}{{< br >}} Chapter 5: Short Term Statistics {{< br >}}{{< br >}} 5.1 Central role of the Gaussian and Rayleigh distributions {{< br >}}{{< br >}} 5.2 Frequency of upcrossings {{< br >}}{{< br >}} 5.3 Maxima at and above a given level {{< br >}}{{< br >}} 5.4 1/N'th highest maxima {{< br >}}{{< br >}} 5.5 1/N'th average value {{< br >}}{{< br >}} 5.6 The 100-year wave: estimate from short-term statistics {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch05)) |
-|  {{< br >}}{{< br >}} Chapter 6: Water Waves {{< br >}}{{< br >}} 6.1 Constitutive and governing relations {{< br >}}{{< br >}} 6.2 Rotation and viscous effects {{< br >}}{{< br >}} 6.3 Velocity potential {{< br >}}{{< br >}} 6.4 Linear waves {{< br >}}{{< br >}} 6.5 Deepwater waves {{< br >}}{{< br >}} 6.6 Wave loading of stationary and moving bodies {{< br >}}{{< br >}} 6.7 Limits of the linear theory {{< br >}}{{< br >}} 6.8 Characteristics of real ocean waves {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch06)) |
-|  {{< br >}}{{< br >}} Chapter 7: Optimization {{< br >}}{{< br >}} 7.1 Single-dimension continuous optimization {{< br >}}{{< br >}} 7.2 Multi-dimensional continuous optimization {{< br >}}{{< br >}} 7.3 Linear programming {{< br >}}{{< br >}} 7.4 Integer linear programming {{< br >}}{{< br >}} 7.5 Min-max optimization for discrete choices {{< br >}}{{< br >}} 7.6 Dynamic programming {{< br >}}{{< br >}} 7.7 Solving dynamic programming on a computer {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch07)) |
-|  {{< br >}}{{< br >}} Chapter 8: Stochastic Simulation {{< br >}}{{< br >}} 8.1 Monte Carlo simulation {{< br >}}{{< br >}} 8.2 Making random numbers {{< br >}}{{< br >}} 8.3 Grid-based techniques {{< br >}}{{< br >}} 8.4 Issues of cost and accuracy {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch08)) |
-|  {{< br >}}{{< br >}} Chapter 9: Kinematics of Moving Frames {{< br >}}{{< br >}} 9.1 Rotation of reference frames {{< br >}}{{< br >}} 9.2 Differential rotations {{< br >}}{{< br >}} 9.3 Rate of change of Euler angles {{< br >}}{{< br >}} 9.4 A practical example: dead reckoning {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch09)) |
-|  {{< br >}}{{< br >}} Chapter 10: Vehicle Internal Dynamics {{< br >}}{{< br >}} 10.1 Momentum of a particle {{< br >}}{{< br >}} 10.2 Linear momentum in a moving frame {{< br >}}{{< br >}} 10.3 Example: mass on a string {{< br >}}{{< br >}} 10.4 Angular momentum {{< br >}}{{< br >}} 10.5 Example: spinning book {{< br >}}{{< br >}} 10.6 Parallel axis theorem {{< br >}}{{< br >}} 10.7 Basis for simulation {{< br >}}{{< br >}} 10.8 What does an inertial measurement unit measure? {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch10)) |
-|  {{< br >}}{{< br >}} Chapter 11: Control Fundamentals {{< br >}}{{< br >}} 11.1 Introduction {{< br >}}{{< br >}} 11.2 Partial fractions {{< br >}}{{< br >}} 11.3 Stability in linear systems {{< br >}}{{< br >}} 11.4 Stability ↔ Poles in LHP {{< br >}}{{< br >}} 11.5 General stability {{< br >}}{{< br >}} 11.6 Representing linear systems {{< br >}}{{< br >}} 11.7 Block diagrams and transfer functions of feedback systems {{< br >}}{{< br >}} 11.8 PID controllers {{< br >}}{{< br >}} 11.9 Example: PID control {{< br >}}{{< br >}} 11.10 Heuristic tuning {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch11)) |
-|  {{< br >}}{{< br >}} Chapter 12: Control Systems — Loop Shaping {{< br >}}{{< br >}} 12.1 Introduction {{< br >}}{{< br >}} 12.2 Roots of stability — Nyquist criterion {{< br >}}{{< br >}} 12.3 Design for nominal performance {{< br >}}{{< br >}} 12.4 Design for robustness {{< br >}}{{< br >}} 12.5 Robust performance {{< br >}}{{< br >}} 12.6 Implications of Bode's integral {{< br >}}{{< br >}} 12.7 The recipe for loopshaping {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch12)) |
-|  {{< br >}}{{< br >}} Chapter 13: Math Facts {{< br >}}{{< br >}} 13.1 Vectors {{< br >}}{{< br >}} 13.2 Matrices {{< br >}}{{< br >}}  | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch13))
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+FILES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Chapter 1: Introduction
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch01))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Chapter 2: Linear Systems
+
+2.1 Definition of a system
+
+2.2 Time-invariant systems
+
+2.3 Linear systems
+
+2.4 The impulse response and convolution
+
+2.5 Causal systems
+
+2.6 An example of finding the impulse response
+
+2.7 Complex numbers
+
+2.8 Fourier transform
+
+2.9 The angle of a transfer function
+
+2.10 The Laplace transform
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch02))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Chapter 3: Probability Events
+
+3.1 Events
+
+3.2 Conditional probability
+
+3.3 Bayes' rule
+
+3.4 Random variables
+
+3.5 Continuous random variables and the probability density function
+
+3.6 The Gaussian PDF
+
+3.7 The cumulative probability function
+
+3.8 Central limit theorem
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch03))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Chapter 4: Random Processes
+
+4.1 Time averages
+
+4.2 Ensemble averages
+
+4.3 Stationarity
+
+4.4 The spectrum: definition
+
+4.5 Wiener-Khinchine Relation
+
+4.6 Spectrum interpretation
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch04))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Chapter 5: Short Term Statistics
+
+5.1 Central role of the Gaussian and Rayleigh distributions
+
+5.2 Frequency of upcrossings
+
+5.3 Maxima at and above a given level
+
+5.4 1/N'th highest maxima
+
+5.5 1/N'th average value
+
+5.6 The 100-year wave: estimate from short-term statistics
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch05))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Chapter 6: Water Waves
+
+6.1 Constitutive and governing relations
+
+6.2 Rotation and viscous effects
+
+6.3 Velocity potential
+
+6.4 Linear waves
+
+6.5 Deepwater waves
+
+6.6 Wave loading of stationary and moving bodies
+
+6.7 Limits of the linear theory
+
+6.8 Characteristics of real ocean waves
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch06))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Chapter 7: Optimization
+
+7.1 Single-dimension continuous optimization
+
+7.2 Multi-dimensional continuous optimization
+
+7.3 Linear programming
+
+7.4 Integer linear programming
+
+7.5 Min-max optimization for discrete choices
+
+7.6 Dynamic programming
+
+7.7 Solving dynamic programming on a computer
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch07))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Chapter 8: Stochastic Simulation
+
+8.1 Monte Carlo simulation
+
+8.2 Making random numbers
+
+8.3 Grid-based techniques
+
+8.4 Issues of cost and accuracy
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch08))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Chapter 9: Kinematics of Moving Frames
+
+9.1 Rotation of reference frames
+
+9.2 Differential rotations
+
+9.3 Rate of change of Euler angles
+
+9.4 A practical example: dead reckoning
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch09))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Chapter 10: Vehicle Internal Dynamics
+
+10.1 Momentum of a particle
+
+10.2 Linear momentum in a moving frame
+
+10.3 Example: mass on a string
+
+10.4 Angular momentum
+
+10.5 Example: spinning book
+
+10.6 Parallel axis theorem
+
+10.7 Basis for simulation
+
+10.8 What does an inertial measurement unit measure?
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch10))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Chapter 11: Control Fundamentals
+
+11.1 Introduction
+
+11.2 Partial fractions
+
+11.3 Stability in linear systems
+
+11.4 Stability ↔ Poles in LHP
+
+11.5 General stability
+
+11.6 Representing linear systems
+
+11.7 Block diagrams and transfer functions of feedback systems
+
+11.8 PID controllers
+
+11.9 Example: PID control
+
+11.10 Heuristic tuning
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch11))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Chapter 12: Control Systems — Loop Shaping
+
+12.1 Introduction
+
+12.2 Roots of stability — Nyquist criterion
+
+12.3 Design for nominal performance
+
+12.4 Design for robustness
+
+12.5 Robust performance
+
+12.6 Implications of Bode's integral
+
+12.7 The recipe for loopshaping
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch12))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+
+
+Chapter 13: Math Facts
+
+13.1 Vectors
+
+13.2 Matrices
+
+
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_ch13))
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}

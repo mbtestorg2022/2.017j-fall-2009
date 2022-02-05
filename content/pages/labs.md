@@ -8,12 +8,87 @@ Lab Rules and Safety ([PDF]({{< baseurl >}}/resources/mit2_017jf09_rules))
 
 The first four weeks of lab are dedicated to exploring the Arduino board and specific topics necessary for designing autonomous robots. All lab sessions after that are free time for groups to work on their final projects.
 
-| TOPICS | SLIDES | HANDOUTS | FILES |
-| --- | --- | --- | --- |
-| Lab 1: Lab introduction and safety, Arduino microprocessor | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_slides1)) | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_lab1)) | &nbsp; |
-| Lab 2: Sensors and signals, A/D, D/A, PWM | ([PDF - 1.6MB]({{< baseurl >}}/resources/mit2_017jf09_slides2)) | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_lab2)) | &nbsp; |
-| Lab 3: GPS and data logging | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_slides3)) | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_lab3)) | ([ZIP]({{< baseurl >}}/resources/lab3files)) (This ZIP file contains: 2 .pde files and 1 .m file.) |
-| Lab 4: Motor control | ([PDF - 1.0MB]({{< baseurl >}}/resources/mit2_017jf09_slides4)) | ([PDF]({{< baseurl >}}/resources/mit2_017jf09_lab4)) | ([ZIP]({{< baseurl >}}/resources/lab4files)) (This ZIP file contains: 2 .zip files, 1 .pdf file, and 2 .pde files.) 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+SLIDES
+{{< thclose >}}
+{{< thopen >}}
+HANDOUTS
+{{< thclose >}}
+{{< thopen >}}
+FILES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 1: Lab introduction and safety, Arduino microprocessor
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_slides1))
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_lab1))
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 2: Sensors and signals, A/D, D/A, PWM
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF - 1.6MB]({{< baseurl >}}/resources/mit2_017jf09_slides2))
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_lab2))
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 3: GPS and data logging
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_slides3))
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_lab3))
+{{< tdclose >}}
+{{< tdopen >}}
+([ZIP]({{< baseurl >}}/resources/lab3files)) (This ZIP file contains: 2 .pde files and 1 .m file.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Lab 4: Motor control
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF - 1.0MB]({{< baseurl >}}/resources/mit2_017jf09_slides4))
+{{< tdclose >}}
+{{< tdopen >}}
+([PDF]({{< baseurl >}}/resources/mit2_017jf09_lab4))
+{{< tdclose >}}
+{{< tdopen >}}
+([ZIP]({{< baseurl >}}/resources/lab4files)) (This ZIP file contains: 2 .zip files, 1 .pdf file, and 2 .pde files.)
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
 Arduino Documentation
 ---------------------
