@@ -93,8 +93,8 @@ Lab 4: Motor control
 Arduino Documentation
 ---------------------
 
-Arduino Experimenter's Guide (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF - 1.8MB](http://www.oomlout.com/ARDX/ZZ-PRODUCTION/PDFs/ARDX-experimenters-guide-WEB.pdf))
+Arduino Experimenter's Guide ([PDF - 1.8MB](http://www.oomlout.com/ARDX/ZZ-PRODUCTION/PDFs/ARDX-experimenters-guide-WEB.pdf))
 
 [Arduino Programming Notebook](http://www.lulu.com/product/paperback/arduino-programming-notebook/3524026)
 
-ATMEL ATmega328P Basic Datasheet (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF - 33.6MB)](http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf) / Full Datasheet (![This resource may not render correctly in a screen reader.](/images/inacessible.gif)[PDF - 12.5MB](http://www.atmel.com/dyn/resources/prod_documents/doc8161.pdf))
+ATMEL ATmega328P Basic Datasheet ([PDF - 33.6MB)](http://www.atmel.com/images/Atmel-8271-8-bit-AVR-Microcontroller-ATmega48A-48PA-88A-88PA-168A-168PA-328-328P_datasheet_Complete.pdf) / Full Datasheet ([PDF - 12.5MB](http://www.atmel.com/dyn/resources/prod_documents/doc8161.pdf))
