@@ -6,6 +6,7 @@ description: 'Textbook on system design for uncertainty. Topics include: linear 
   fundamentals, control systems, loop shaping, and math facts.'
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/2-017j-design-of-electromechanical-robotic-systems-fall-2009/41e4cc0e5a0ebd845ea4f5e7c055fdf7_MIT2_017JF09_coursetext.pdf
 file_type: application/pdf
+parent_uid: a1ae82bd-baca-7740-562c-d1f0ae24300c
 resourcetype: Document
 title: System Design for Uncertainty
 uid: 41e4cc0e-5a0e-bd84-5ea4-f5e7c055fdf7
